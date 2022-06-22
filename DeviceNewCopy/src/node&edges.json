@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1, 
+        "label": "Router 1",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/3", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[2,3,5,4,6,8],
+        "x":5,
+        "y":10,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 2, 
+        "label": "Router 2",
+        "title":"interface Ge0/1\n interface Ge0/2", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[5,4],
+        "x":-110,
+        "y":-45,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 3, 
+        "label": "Switch 1",
+        "title":"interface Ge0/1", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "shadow": true ,
+        "connect_to" :[9],
+        "x":50,
+        "y":-280,
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network"
+    },
+    {
+        "id": 4, 
+        "label": "Switch 2",
+        "title":"interface Ge0/1\n interface Ge0/2", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "shadow": true,
+        "connect_to" :[10,11],
+        "x":-400,
+        "y":-35,
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network"
+    },
+    {
+        "id": 5, 
+        "label": "Switch 3",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/1\n interface Ge0/2", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "shadow": true , 
+        "connect_to" :[7],
+        "x":280,
+        "y":120,
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network"
+    },
+    {
+        "id": 6, 
+        "label": "Router 3",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/3", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[12,9,11],
+        "x":-65,
+        "y":-200,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 7, 
+        "label": "Router 4",
+        "title":"interface Ge0/1", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[10,11],
+        "x":255,
+        "y":-150,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 8, 
+        "label": "Router 5",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/3\n interface Ge0/4", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[9,12],
+        "x":400,
+        "y":10,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 9, 
+        "label": "Switch 4",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/1\n interface Ge0/2", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "shadow": true , 
+        "connect_to" :[10,11,12],
+        "x":150,
+        "y":240,
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network"
+    },
+    {
+        "id": 10, 
+        "label": "Router 6",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/3", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[11,12],
+        "x":95,
+        "y":190,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 11, 
+        "label": "Router 7",
+        "title":"interface Ge0/1\n interface Ge0/2", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[12],
+        "x":-255,
+        "y":130,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    },
+    {
+        "id": 12, 
+        "label": "Router 8",
+        "title":"interface Ge0/1\n interface Ge0/2\n interface Ge0/3\n interface Ge0/4", 
+        "shape":"image",
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "shadow": true ,
+        "connect_to" :[],
+        "x":-45,
+        "y":180,
+        "device_description":"connects two or more packet-switched networks or subnetworks"
+    }
+    
+
+]

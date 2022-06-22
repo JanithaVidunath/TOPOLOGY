@@ -1,0 +1,82 @@
+[
+
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "device_name": "R1",
+        "catagory":"router" ,
+        "UUID": "f1d22da0-d19e-43c2-9083-b5a83a3a8646",
+        "device_status": "discovered",
+        "title":"interface e0/0 interface e0/1 interface e0/2 interface e0/3",
+        "device_description":"connects two or more packet-switched networks or subnetworks",
+        "device_lan" : "28.264414",
+        "device_long":"34.854469"
+    },
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "device_name": "R2",
+        "catagory":"router" ,
+        "UUID": "9f9d9673-ae19-4303-9a21-6cce949c5913",
+        "device_status": "discovered",
+        "title":"interface e0/0 interface e0/1 interface e0/2",
+        "device_description":"connects two or more packet-switched networks or subnetworks",
+        "device_lan" : "38.264414",
+        "device_long":"54.854469"
+    },
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "device_name": "R3",
+        "catagory":"router" ,
+        "UUID": "8c532e31-f62f-472e-9ddf-b4bde73bae75",
+        "device_status": "new",
+        "title":"interface e0/0 interface e0/1 interface e0/2",
+        "device_description":"connects two or more packet-switched networks or subnetworks",
+        "device_lan" : "28.264414",
+        "device_long":"74.854469"
+    },
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.25.21.jpeg",
+        "device_name": "R4",
+        "catagory":"router" ,
+        "UUID": "6b2fff95-bebb-4a77-9120-f3d2a575fb60",
+        "device_status": "new",
+        "title":"interface e0/0 interface e0/1 interface e0/2",
+        "device_description":"connects two or more packet-switched networks or subnetworks",
+        "device_lan" : "8.264414",
+        "device_long":"54.854469"
+    },
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "device_name": "SW1",
+        "catagory":"switch" ,
+        "UUID": "762e9e80-f80d-4b15-806c-9cbebcaf4cf1",
+        "device_status": "discovered",
+        "title":"interface e0/0",
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network",
+        "device_lan" : "28.264414",
+        "device_long":"9.854469"
+    },
+    {
+        "image":"WhatsApp Image 2022-03-23 at 13.26.26.jpeg",
+        "device_name": "SW2",
+        "catagory":"switch" ,
+        "UUID": "6c06b66b-7e62-48cb-92d2-de8b25e35cd2",
+        "device_status": "discovered",
+        "title":"interface e0/0",
+        "device_description":"connect devices and use packet switching to forward data packets or data frames over the network",
+        "device_lan" : "28.264414",
+        "device_long":"94.854469"
+    },
+    
+    {
+        "image":"WhatsApp Image 2022-04-22 at 11.49.30 AM.jpeg",
+        "device_name": "Net",
+        "catagory":"cloud" ,
+        "UUID": "19308cde-06e3-415b-afb5-7cda6ca1c242",
+        "device_status": "discovered",
+        "title":"Public API",
+        "device_description": "storing data on the Internet where provisioning ease and data durability far exceed" ,
+        "device_lan" : "11.264414",
+        "device_long":"18.854469"
+    }
+
+]
