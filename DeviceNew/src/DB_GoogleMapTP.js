@@ -132,14 +132,14 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import Paper from '@material-ui/core/Paper';
 import { useParams } from 'react-router-dom';
-
+import MapStyle from "./MapStyle";
 
 function GoogleTable1(){
     const [selectedPark, setSelectedPark] = useState(null);
     const [popselectedPark, setpopSelectedPark] = useState(null);
     const [list, setList] = useState([]);
-    const[avgLat,setavgLat]= useState(30.614414);
-    const[avgLng,setavgLng]= useState(29.85123);
+    const[avgLat,setavgLat]= useState(null);
+    const[avgLng,setavgLng]= useState(null);
 
     const [selectedDevices, setSelectedDevices] = useState(null);
     const {id}=useParams();
@@ -275,17 +275,24 @@ useEffect(() => {
     {lat: 29.264414, lng: 49.854469},
     {lat: 7.264414, lng: 57.854469}]))
   console.log(printPairs([232,33,44,55,77,88],6))*/
+  const opt={
+    minZoom:2,
+    maxZoom:4,
+  }
     return(
       
-      <GoogleMap
+     <>
+     {avgLat && avgLng && <GoogleMap
           
           style={{width:"100%" , height:"100"}}
           
-          defaultZoom={5}
+          defaultZoom={3}
+          options={opt}
           //defaultCenter={(list[0] && list[1])?{ lat:(parseFloat(list[0].lat)+parseFloat(list[1].lat))/2, lng: (parseFloat(list[0].lng)+parseFloat(list[1].lng))/2 }
        // :{lat:30.264414,lng:29.854469}
        // }
-       defaultCenter={(selectedDevices)?{lat:avgLat,lng:avgLng}:{lat:30,lng:40}}
+       defaultCenter={{lat:avgLat,lng:avgLng}}
+       defaultOptions={{styles:MapStyle}}
          //defaultCenter={{lat:10.264414,lng:9.854469}}
           //initialCenter={{
           //  lat:23.885942,
@@ -473,8 +480,8 @@ useEffect(() => {
               setpopSelectedPark(null);
             }}
             position={{
-              lat: parseFloat(popselectedPark.lat)+2,
-              lng: parseFloat(popselectedPark.lon)+2
+              lat: parseFloat(popselectedPark.lat)+1,
+              lng: parseFloat(popselectedPark.lon)+1
             }}
             style={{color:"blue"}}
           >
@@ -490,7 +497,8 @@ useEffect(() => {
       )}
       
     </GoogleMap>
-    
+    }
+    </>
     
     )
     
